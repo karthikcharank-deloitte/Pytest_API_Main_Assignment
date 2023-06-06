@@ -1,0 +1,4 @@
+[32mINFO    [0m test_health_check:test_register_and_login.py:12 Testing API: /health-check
+[32mINFO    [0m test_health_check:test_register_and_login.py:13 Request Type: GET
+[32mINFO    [0m test_health_check:test_register_and_login.py:18 Status code verified as 200
+[32mINFO    [0m test_health_check:test_register_and_login.py:21 Response body verified

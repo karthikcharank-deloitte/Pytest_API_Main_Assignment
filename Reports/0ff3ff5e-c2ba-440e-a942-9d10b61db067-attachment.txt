@@ -1,0 +1,4 @@
+[32mINFO    [0m test_login:test_register_and_login.py:62 Testing API: /users/login
+[32mINFO    [0m test_login:test_register_and_login.py:63 Request Type: POST
+[32mINFO    [0m test_login:test_register_and_login.py:65 Login successful..!!
+[32mINFO    [0m test_login:test_register_and_login.py:68 Response code verified as 200

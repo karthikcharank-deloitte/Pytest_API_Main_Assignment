@@ -1,0 +1,4 @@
+[32mINFO    [0m test_register_with_invalid_data:test_register_and_login.py:50 Testing API: /users/register
+[32mINFO    [0m test_register_with_invalid_data:test_register_and_login.py:51 Request Type: POST
+[33mWARNING [0m test_register_with_invalid_data:test_register_and_login.py:53 Registration failed..!!
+[32mINFO    [0m test_register_with_invalid_data:test_register_and_login.py:56 Response code verified as 400

@@ -1,0 +1,4 @@
+[32mINFO    [0m test_login_with_invalid_data:test_register_and_login.py:74 Testing API: /users/login
+[32mINFO    [0m test_login_with_invalid_data:test_register_and_login.py:75 Request Type: POST
+[33mWARNING [0m test_login_with_invalid_data:test_register_and_login.py:77 Login Failed..!!
+[32mINFO    [0m test_login_with_invalid_data:test_register_and_login.py:80 Response code verified as 401

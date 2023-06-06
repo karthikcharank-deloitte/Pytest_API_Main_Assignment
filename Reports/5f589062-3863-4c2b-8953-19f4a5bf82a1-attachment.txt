@@ -1,0 +1,4 @@
+[32mINFO    [0m test_get_all_notes_without_token:test_swagger_notes.py:69 Testing API: /notes
+[32mINFO    [0m test_get_all_notes_without_token:test_swagger_notes.py:70 Request Type: GET
+[32mINFO    [0m test_get_all_notes_without_token:test_swagger_notes.py:74 Unauthorized Request..!!
+[32mINFO    [0m test_get_all_notes_without_token:test_swagger_notes.py:78 Response code verified as 401

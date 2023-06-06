@@ -1,0 +1,5 @@
+[32mINFO    [0m test_update_profile:test_register_and_login.py:118 Testing API: /users/profile
+[32mINFO    [0m test_update_profile:test_register_and_login.py:119 Request Type: PATCH
+[32mINFO    [0m test_update_profile:test_register_and_login.py:124 Authentication Token: da624250bc08476f84e4a2cb96d584d0d953e82e566e413a844f8890a8830358
+[32mINFO    [0m test_update_profile:test_register_and_login.py:127 Profile updated successfully..!!
+[32mINFO    [0m test_update_profile:test_register_and_login.py:131 Response code verified as 200

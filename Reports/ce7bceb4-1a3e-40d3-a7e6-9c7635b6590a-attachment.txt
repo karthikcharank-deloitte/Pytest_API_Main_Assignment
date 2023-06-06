@@ -1,0 +1,4 @@
+[32mINFO    [0m test_logout:test_register_and_login.py:226 Testing API: /users/logout
+[32mINFO    [0m test_logout:test_register_and_login.py:227 Request Type: POST
+[32mINFO    [0m test_logout:test_register_and_login.py:235 User logged out successfully..!!
+[32mINFO    [0m test_logout:test_register_and_login.py:238 Response code verified as 200

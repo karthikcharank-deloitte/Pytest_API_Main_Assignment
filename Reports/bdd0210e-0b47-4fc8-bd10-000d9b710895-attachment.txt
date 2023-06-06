@@ -1,0 +1,4 @@
+[32mINFO    [0m test_update_profile_without_token:test_register_and_login.py:136 Testing API: /users/profile
+[32mINFO    [0m test_update_profile_without_token:test_register_and_login.py:137 Request Type: PATCH
+[31mCRITICAL[0m test_update_profile_without_token:test_register_and_login.py:142 Unauthorized Request..!!
+[32mINFO    [0m test_update_profile_without_token:test_register_and_login.py:146 Response code verified as 401

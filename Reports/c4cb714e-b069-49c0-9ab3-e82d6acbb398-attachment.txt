@@ -1,0 +1,5 @@
+[32mINFO    [0m test_change_password:test_register_and_login.py:207 Testing API: /users/change-password
+[32mINFO    [0m test_change_password:test_register_and_login.py:208 Request Type: POST
+[32mINFO    [0m test_change_password:test_register_and_login.py:214 Authentication Token: da624250bc08476f84e4a2cb96d584d0d953e82e566e413a844f8890a8830358
+[32mINFO    [0m test_change_password:test_register_and_login.py:217 Password changed successfully..!!
+[32mINFO    [0m test_change_password:test_register_and_login.py:221 Response code verified as 200

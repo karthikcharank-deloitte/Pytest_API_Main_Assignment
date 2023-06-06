@@ -1,0 +1,135 @@
+2023-06-06 13:17:25,498 :INFO : test_health_check :Testing API: /health-check
+2023-06-06 13:17:25,498 :INFO : test_health_check :Request Type: GET
+2023-06-06 13:17:26,440 :INFO : test_health_check :Status code verified as 200
+2023-06-06 13:17:26,441 :INFO : test_health_check :Response body verified
+2023-06-06 13:17:26,463 :INFO : test_register :Testing API: /users/register
+2023-06-06 13:17:26,464 :INFO : test_register :Request Type: POST
+2023-06-06 13:17:27,520 :INFO : test_register :New user registered successfully..!!
+2023-06-06 13:17:27,520 :INFO : test_register :Response code verified as 201
+2023-06-06 13:17:27,543 :INFO : test_register_with_same_data :Testing API: /users/register
+2023-06-06 13:17:27,543 :INFO : test_register_with_same_data :Request Type: POST
+2023-06-06 13:17:28,077 :WARNING : test_register_with_same_data :Registration failed..!!
+2023-06-06 13:17:28,078 :INFO : test_register_with_same_data :Response code verified as 409
+2023-06-06 13:17:28,103 :INFO : test_register_with_invalid_data :Testing API: /users/register
+2023-06-06 13:17:28,103 :INFO : test_register_with_invalid_data :Request Type: POST
+2023-06-06 13:17:28,590 :WARNING : test_register_with_invalid_data :Registration failed..!!
+2023-06-06 13:17:28,590 :INFO : test_register_with_invalid_data :Response code verified as 400
+2023-06-06 13:17:28,612 :INFO : test_login :Testing API: /users/login
+2023-06-06 13:17:28,613 :INFO : test_login :Request Type: POST
+2023-06-06 13:17:29,613 :INFO : test_login :Login successful..!!
+2023-06-06 13:17:29,613 :INFO : test_login :Response code verified as 200
+2023-06-06 13:17:29,636 :INFO : test_login_with_invalid_data :Testing API: /users/login
+2023-06-06 13:17:29,636 :INFO : test_login_with_invalid_data :Request Type: POST
+2023-06-06 13:17:30,228 :WARNING : test_login_with_invalid_data :Login Failed..!!
+2023-06-06 13:17:30,229 :INFO : test_login_with_invalid_data :Response code verified as 401
+2023-06-06 13:17:30,253 :INFO : test_profile_info :Testing API: /users/profile
+2023-06-06 13:17:30,253 :INFO : test_profile_info :Request Type: GET
+2023-06-06 13:17:31,252 :INFO : test_profile_info :Token: da624250bc08476f84e4a2cb96d584d0d953e82e566e413a844f8890a8830358
+2023-06-06 13:17:31,867 :INFO : test_profile_info :Profile data retrieved successfully..!!
+2023-06-06 13:17:31,867 :INFO : test_profile_info :Response code verified as 200
+2023-06-06 13:17:31,889 :INFO : test_profile_info_without_token :Testing API: /users/profile
+2023-06-06 13:17:31,889 :INFO : test_profile_info_without_token :Request Type: GET
+2023-06-06 13:17:33,050 :CRITICAL : test_profile_info_without_token :Unauthorized Request..!!
+2023-06-06 13:17:33,051 :INFO : test_profile_info_without_token :Response code verified as 401
+2023-06-06 13:17:33,072 :INFO : test_update_profile :Testing API: /users/profile
+2023-06-06 13:17:33,072 :INFO : test_update_profile :Request Type: PATCH
+2023-06-06 13:17:33,897 :INFO : test_update_profile :Authentication Token: da624250bc08476f84e4a2cb96d584d0d953e82e566e413a844f8890a8830358
+2023-06-06 13:17:34,529 :INFO : test_update_profile :Profile updated successfully..!!
+2023-06-06 13:17:34,530 :INFO : test_update_profile :Response code verified as 200
+2023-06-06 13:17:34,551 :INFO : test_update_profile_without_token :Testing API: /users/profile
+2023-06-06 13:17:34,551 :INFO : test_update_profile_without_token :Request Type: PATCH
+2023-06-06 13:17:35,814 :CRITICAL : test_update_profile_without_token :Unauthorized Request..!!
+2023-06-06 13:17:35,814 :INFO : test_update_profile_without_token :Response code verified as 401
+2023-06-06 13:17:35,838 :INFO : test_forgot_password :Testing API: /users/forgot-password
+2023-06-06 13:17:35,839 :INFO : test_forgot_password :Request Type: POST
+2023-06-06 13:17:36,986 :INFO : test_forgot_password :Password reset email sent successfully..!!
+2023-06-06 13:17:36,986 :INFO : test_forgot_password :Response code verified as 200
+2023-06-06 13:17:37,010 :INFO : test_forgot_password_with_invalid_email :Testing API: /users/forgot-password
+2023-06-06 13:17:37,010 :INFO : test_forgot_password_with_invalid_email :Request Type: POST
+2023-06-06 13:17:37,498 :WARNING : test_forgot_password_with_invalid_email :Invalid Email..!!
+2023-06-06 13:17:37,498 :INFO : test_forgot_password_with_invalid_email :Response code verified as 400
+2023-06-06 13:17:37,522 :INFO : test_verify_invalid_token :Testing API: /users/verify-reset-password-token
+2023-06-06 13:17:37,523 :INFO : test_verify_invalid_token :Request Type: POST
+2023-06-06 13:17:38,258 :WARNING : test_verify_invalid_token :The provided password reset token is invalid or has expired..!!
+2023-06-06 13:17:38,258 :INFO : test_verify_invalid_token :Response code verified as 401
+2023-06-06 13:17:38,288 :INFO : test_reset_password :Testing API: /users/reset-password
+2023-06-06 13:17:38,289 :INFO : test_reset_password :Request Type: POST
+2023-06-06 13:17:38,829 :INFO : test_reset_password :Password reset successful..!!
+2023-06-06 13:17:38,863 :INFO : test_reset_password_with_invalid_data :Testing API: /users/reset-password
+2023-06-06 13:17:38,863 :INFO : test_reset_password_with_invalid_data :Request Type: POST
+2023-06-06 13:17:39,357 :WARNING : test_reset_password_with_invalid_data :Invalid token passed..!!
+2023-06-06 13:17:39,357 :INFO : test_reset_password_with_invalid_data :Response code is verified as 401
+2023-06-06 13:17:39,388 :INFO : test_change_password :Testing API: /users/change-password
+2023-06-06 13:17:39,389 :INFO : test_change_password :Request Type: POST
+2023-06-06 13:17:39,993 :INFO : test_change_password :Authentication Token: da624250bc08476f84e4a2cb96d584d0d953e82e566e413a844f8890a8830358
+2023-06-06 13:17:40,778 :INFO : test_change_password :Password changed successfully..!!
+2023-06-06 13:17:40,779 :INFO : test_change_password :Response code verified as 200
+2023-06-06 13:17:40,811 :INFO : test_logout :Testing API: /users/logout
+2023-06-06 13:17:40,811 :INFO : test_logout :Request Type: POST
+2023-06-06 13:17:42,724 :INFO : test_logout :User logged out successfully..!!
+2023-06-06 13:17:42,724 :INFO : test_logout :Response code verified as 200
+2023-06-06 13:17:42,756 :INFO : test_logout_without_token :Testing API: /users/logout
+2023-06-06 13:17:42,756 :INFO : test_logout_without_token :Request Type: POST
+2023-06-06 13:17:43,950 :INFO : test_logout_without_token :Logout failed..!!
+2023-06-06 13:17:43,951 :INFO : test_logout_without_token :Response code verified as 401
+2023-06-06 13:17:43,971 :INFO : test_delete_account :Testing API: /users/delete-account
+2023-06-06 13:17:43,971 :INFO : test_delete_account :Request Type: DELETE
+2023-06-06 13:17:45,999 :INFO : test_delete_account :User account deleted successfully..!!
+2023-06-06 13:17:46,000 :INFO : test_delete_account :Response code verified as 200
+2023-06-06 13:17:46,032 :INFO : test_delete_account_without_token :Testing API: /users/delete-account
+2023-06-06 13:17:46,032 :INFO : test_delete_account_without_token :Request Type: DELETE
+2023-06-06 13:17:47,125 :INFO : test_delete_account_without_token :User account deletion failed..!!
+2023-06-06 13:17:47,126 :INFO : test_delete_account_without_token :Response code verified as 401
+2023-06-06 13:17:47,156 :INFO : test_create_note :Testing API: /notes
+2023-06-06 13:17:47,157 :INFO : test_create_note :Request Type: POST
+2023-06-06 13:17:47,840 :INFO : test_create_note :Login successful..!!
+2023-06-06 13:17:47,840 :INFO : test_create_note :Token: 4364b41e6d5e4a129682797d90c7f9f6c96f836aac0543219d4143f3d7fef4f0
+2023-06-06 13:17:48,731 :INFO : test_create_note :Note created successfully..!!
+2023-06-06 13:17:48,738 :INFO : test_create_note :Response code verified as 200
+2023-06-06 13:17:48,763 :INFO : test_create_note_with_invalid_dta :Testing API: /notes
+2023-06-06 13:17:48,763 :INFO : test_create_note_with_invalid_dta :Request Type: POST
+2023-06-06 13:17:49,479 :INFO : test_create_note_with_invalid_dta :Login successful..!!
+2023-06-06 13:17:49,479 :INFO : test_create_note_with_invalid_dta :Token: 4364b41e6d5e4a129682797d90c7f9f6c96f836aac0543219d4143f3d7fef4f0
+2023-06-06 13:17:50,504 :INFO : test_create_note_with_invalid_dta :Invalid category selected..!!
+2023-06-06 13:17:50,505 :INFO : test_create_note_with_invalid_dta :Response code verified as 400
+2023-06-06 13:17:50,535 :INFO : test_get_all_notes :Testing API: /notes
+2023-06-06 13:17:50,535 :INFO : test_get_all_notes :Request Type: GET
+2023-06-06 13:17:51,937 :INFO : test_get_all_notes :All Notes retrieved successfully..!!
+2023-06-06 13:17:51,938 :INFO : test_get_all_notes :Response code verified as 200
+2023-06-06 13:17:51,950 :INFO : test_get_all_notes_without_token :Testing API: /notes
+2023-06-06 13:17:51,950 :INFO : test_get_all_notes_without_token :Request Type: GET
+2023-06-06 13:17:53,269 :INFO : test_get_all_notes_without_token :Unauthorized Request..!!
+2023-06-06 13:17:53,270 :INFO : test_get_all_notes_without_token :Response code verified as 401
+2023-06-06 13:17:53,296 :INFO : test_get_notes_by_id :Testing API: /notes/{id}
+2023-06-06 13:17:53,296 :INFO : test_get_notes_by_id :Request Type: GET
+2023-06-06 13:17:53,985 :INFO : test_get_notes_by_id :Authentication Token: 4364b41e6d5e4a129682797d90c7f9f6c96f836aac0543219d4143f3d7fef4f0
+2023-06-06 13:17:54,601 :INFO : test_get_notes_by_id :Note successfully retrieved by ID
+2023-06-06 13:17:54,602 :INFO : test_get_notes_by_id :Response code verified as 200
+2023-06-06 13:17:54,636 :INFO : test_get_notes_by_invalid_id :Testing API: /notes/{id}
+2023-06-06 13:17:54,636 :INFO : test_get_notes_by_invalid_id :Request Type: GET
+2023-06-06 13:17:55,622 :INFO : test_get_notes_by_invalid_id :Authentication Token: 4364b41e6d5e4a129682797d90c7f9f6c96f836aac0543219d4143f3d7fef4f0
+2023-06-06 13:17:56,135 :INFO : test_get_notes_by_invalid_id :Invalid note ID is passed..!!
+2023-06-06 13:17:56,136 :INFO : test_get_notes_by_invalid_id :Response code verified as 400
+2023-06-06 13:17:56,168 :INFO : test_update_notes :Testing API: /notes/{id}
+2023-06-06 13:17:56,168 :INFO : test_update_notes :Request Type: POST
+2023-06-06 13:17:58,492 :INFO : test_update_notes :Note updated successfully..!!
+2023-06-06 13:17:58,492 :INFO : test_update_notes :Response code verified as 200
+2023-06-06 13:17:58,511 :INFO : test_update_notes_without_token :Testing API: /notes/{id}
+2023-06-06 13:17:58,511 :INFO : test_update_notes_without_token :Request Type: POST
+2023-06-06 13:18:00,443 :INFO : test_update_notes_without_token :Unauthorized Request..!!
+2023-06-06 13:18:00,444 :INFO : test_update_notes_without_token :Response code verified as 401
+2023-06-06 13:18:00,476 :INFO : test_update_note_status :Testing API: /notes/{id}
+2023-06-06 13:18:00,476 :INFO : test_update_note_status :Request Type: PATCH
+2023-06-06 13:18:01,357 :INFO : test_update_note_status :Authentication Token: 4364b41e6d5e4a129682797d90c7f9f6c96f836aac0543219d4143f3d7fef4f0
+2023-06-06 13:18:01,972 :INFO : test_update_note_status :Note updated successfully..!!
+2023-06-06 13:18:01,973 :INFO : test_update_note_status :Response code verified as 200
+2023-06-06 13:18:02,005 :INFO : test_delete_note :Testing API: /notes/{id}
+2023-06-06 13:18:02,005 :INFO : test_delete_note :Request Type: DELETE
+2023-06-06 13:18:02,623 :INFO : test_delete_note :Authentication Token: 4364b41e6d5e4a129682797d90c7f9f6c96f836aac0543219d4143f3d7fef4f0
+2023-06-06 13:18:03,125 :INFO : test_delete_note :Note deleted successfully..!!
+2023-06-06 13:18:03,126 :INFO : test_delete_note :Response code verified as 200
+2023-06-06 13:18:03,163 :INFO : test_delete_note_with_invalid_id :Testing API: /notes/{id}
+2023-06-06 13:18:03,163 :INFO : test_delete_note_with_invalid_id :Request Type: DELETE
+2023-06-06 13:18:03,816 :INFO : test_delete_note_with_invalid_id :Authentication Token: 4364b41e6d5e4a129682797d90c7f9f6c96f836aac0543219d4143f3d7fef4f0
+2023-06-06 13:18:04,292 :INFO : test_delete_note_with_invalid_id :Invalid note ID is passed..!!
+2023-06-06 13:18:04,293 :INFO : test_delete_note_with_invalid_id :Response code verified as 400

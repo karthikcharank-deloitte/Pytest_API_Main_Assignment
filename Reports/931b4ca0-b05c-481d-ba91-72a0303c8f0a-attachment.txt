@@ -1,0 +1,4 @@
+[32mINFO    [0m test_delete_account_without_token:test_register_and_login.py:274 Testing API: /users/delete-account
+[32mINFO    [0m test_delete_account_without_token:test_register_and_login.py:275 Request Type: DELETE
+[32mINFO    [0m test_delete_account_without_token:test_register_and_login.py:280 User account deletion failed..!!
+[32mINFO    [0m test_delete_account_without_token:test_register_and_login.py:283 Response code verified as 401

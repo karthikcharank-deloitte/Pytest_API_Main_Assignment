@@ -1,0 +1,4 @@
+[32mINFO    [0m test_get_all_notes:test_swagger_notes.py:51 Testing API: /notes
+[32mINFO    [0m test_get_all_notes:test_swagger_notes.py:52 Request Type: GET
+[32mINFO    [0m test_get_all_notes:test_swagger_notes.py:60 All Notes retrieved successfully..!!
+[32mINFO    [0m test_get_all_notes:test_swagger_notes.py:64 Response code verified as 200

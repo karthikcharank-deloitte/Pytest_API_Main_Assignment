@@ -1,0 +1,4 @@
+[32mINFO    [0m test_profile_info_without_token:test_register_and_login.py:104 Testing API: /users/profile
+[32mINFO    [0m test_profile_info_without_token:test_register_and_login.py:105 Request Type: GET
+[31mCRITICAL[0m test_profile_info_without_token:test_register_and_login.py:109 Unauthorized Request..!!
+[32mINFO    [0m test_profile_info_without_token:test_register_and_login.py:113 Response code verified as 401

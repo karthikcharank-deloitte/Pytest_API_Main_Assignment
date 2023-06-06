@@ -1,0 +1,4 @@
+[32mINFO    [0m test_update_notes:test_swagger_notes.py:124 Testing API: /notes/{id}
+[32mINFO    [0m test_update_notes:test_swagger_notes.py:125 Request Type: POST
+[32mINFO    [0m test_update_notes:test_swagger_notes.py:136 Note updated successfully..!!
+[32mINFO    [0m test_update_notes:test_swagger_notes.py:140 Response code verified as 200

@@ -1,0 +1,5 @@
+[32mINFO    [0m test_delete_note_with_invalid_id:test_swagger_notes.py:199 Testing API: /notes/{id}
+[32mINFO    [0m test_delete_note_with_invalid_id:test_swagger_notes.py:200 Request Type: DELETE
+[32mINFO    [0m test_delete_note_with_invalid_id:test_swagger_notes.py:205 Authentication Token: 4364b41e6d5e4a129682797d90c7f9f6c96f836aac0543219d4143f3d7fef4f0
+[32mINFO    [0m test_delete_note_with_invalid_id:test_swagger_notes.py:208 Invalid note ID is passed..!!
+[32mINFO    [0m test_delete_note_with_invalid_id:test_swagger_notes.py:212 Response code verified as 400

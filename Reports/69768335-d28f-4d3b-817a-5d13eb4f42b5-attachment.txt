@@ -1,0 +1,4 @@
+<Response [200]>
+{'success': True, 'status': 200, 'message': 'Login successful', 'data': {'id': '6478dc7f62a54902112cc76c', 'name': 'ABCD', 'email': 'acb8163@gmail.com', 'token': '4364b41e6d5e4a129682797d90c7f9f6c96f836aac0543219d4143f3d7fef4f0'}}
+4364b41e6d5e4a129682797d90c7f9f6c96f836aac0543219d4143f3d7fef4f0
+{'success': True, 'status': 200, 'message': 'Note successfully Updated', 'data': {'id': '647ee4a4171bfa0211d5d0ba', 'title': 'Note1', 'description': 'Home note updated', 'category': 'Home', 'completed': False, 'created_at': '2023-06-06T07:47:48.221Z', 'updated_at': '2023-06-06T07:47:58.242Z', 'user_id': '6478dc7f62a54902112cc76c'}}

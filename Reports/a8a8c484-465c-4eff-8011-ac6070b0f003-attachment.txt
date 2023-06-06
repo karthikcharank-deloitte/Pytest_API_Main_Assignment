@@ -1,0 +1,6 @@
+[32mINFO    [0m test_create_note:test_swagger_notes.py:11 Testing API: /notes
+[32mINFO    [0m test_create_note:test_swagger_notes.py:12 Request Type: POST
+[32mINFO    [0m test_create_note:test_swagger_notes.py:14 Login successful..!!
+[32mINFO    [0m test_create_note:test_swagger_notes.py:19 Token: 4364b41e6d5e4a129682797d90c7f9f6c96f836aac0543219d4143f3d7fef4f0
+[32mINFO    [0m test_create_note:test_swagger_notes.py:22 Note created successfully..!!
+[32mINFO    [0m test_create_note:test_swagger_notes.py:26 Response code verified as 200

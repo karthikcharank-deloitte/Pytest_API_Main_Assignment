@@ -1,0 +1,6 @@
+[32mINFO    [0m test_create_note_with_invalid_dta:test_swagger_notes.py:31 Testing API: /notes
+[32mINFO    [0m test_create_note_with_invalid_dta:test_swagger_notes.py:32 Request Type: POST
+[32mINFO    [0m test_create_note_with_invalid_dta:test_swagger_notes.py:34 Login successful..!!
+[32mINFO    [0m test_create_note_with_invalid_dta:test_swagger_notes.py:39 Token: 4364b41e6d5e4a129682797d90c7f9f6c96f836aac0543219d4143f3d7fef4f0
+[32mINFO    [0m test_create_note_with_invalid_dta:test_swagger_notes.py:42 Invalid category selected..!!
+[32mINFO    [0m test_create_note_with_invalid_dta:test_swagger_notes.py:46 Response code verified as 400

@@ -1,0 +1,4 @@
+[32mINFO    [0m test_forgot_password:test_register_and_login.py:151 Testing API: /users/forgot-password
+[32mINFO    [0m test_forgot_password:test_register_and_login.py:152 Request Type: POST
+[32mINFO    [0m test_forgot_password:test_register_and_login.py:154 Password reset email sent successfully..!!
+[32mINFO    [0m test_forgot_password:test_register_and_login.py:158 Response code verified as 200

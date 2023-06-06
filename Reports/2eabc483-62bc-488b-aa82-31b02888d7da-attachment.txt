@@ -1,0 +1,4 @@
+[32mINFO    [0m test_forgot_password_with_invalid_email:test_register_and_login.py:163 Testing API: /users/forgot-password
+[32mINFO    [0m test_forgot_password_with_invalid_email:test_register_and_login.py:164 Request Type: POST
+[33mWARNING [0m test_forgot_password_with_invalid_email:test_register_and_login.py:166 Invalid Email..!!
+[32mINFO    [0m test_forgot_password_with_invalid_email:test_register_and_login.py:170 Response code verified as 400

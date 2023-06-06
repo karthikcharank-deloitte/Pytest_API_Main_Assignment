@@ -1,0 +1,5 @@
+[32mINFO    [0m test_delete_note:test_swagger_notes.py:181 Testing API: /notes/{id}
+[32mINFO    [0m test_delete_note:test_swagger_notes.py:182 Request Type: DELETE
+[32mINFO    [0m test_delete_note:test_swagger_notes.py:187 Authentication Token: 4364b41e6d5e4a129682797d90c7f9f6c96f836aac0543219d4143f3d7fef4f0
+[32mINFO    [0m test_delete_note:test_swagger_notes.py:190 Note deleted successfully..!!
+[32mINFO    [0m test_delete_note:test_swagger_notes.py:193 Response code verified as 200

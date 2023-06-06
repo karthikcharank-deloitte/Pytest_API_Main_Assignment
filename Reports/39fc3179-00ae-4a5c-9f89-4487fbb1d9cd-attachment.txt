@@ -1,0 +1,5 @@
+[32mINFO    [0m test_profile_info:test_register_and_login.py:86 Testing API: /users/profile
+[32mINFO    [0m test_profile_info:test_register_and_login.py:87 Request Type: GET
+[32mINFO    [0m test_profile_info:test_register_and_login.py:91 Token: da624250bc08476f84e4a2cb96d584d0d953e82e566e413a844f8890a8830358
+[32mINFO    [0m test_profile_info:test_register_and_login.py:95 Profile data retrieved successfully..!!
+[32mINFO    [0m test_profile_info:test_register_and_login.py:99 Response code verified as 200

@@ -1,0 +1,3 @@
+[32mINFO    [0m test_reset_password:test_register_and_login.py:185 Testing API: /users/reset-password
+[32mINFO    [0m test_reset_password:test_register_and_login.py:186 Request Type: POST
+[32mINFO    [0m test_reset_password:test_register_and_login.py:188 Password reset successful..!!

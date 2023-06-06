@@ -1,0 +1,4 @@
+[32mINFO    [0m test_logout_without_token:test_register_and_login.py:243 Testing API: /users/logout
+[32mINFO    [0m test_logout_without_token:test_register_and_login.py:244 Request Type: POST
+[32mINFO    [0m test_logout_without_token:test_register_and_login.py:249 Logout failed..!!
+[32mINFO    [0m test_logout_without_token:test_register_and_login.py:252 Response code verified as 401

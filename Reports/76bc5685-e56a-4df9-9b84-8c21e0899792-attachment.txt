@@ -1,0 +1,4 @@
+[32mINFO    [0m test_register_with_same_data:test_register_and_login.py:38 Testing API: /users/register
+[32mINFO    [0m test_register_with_same_data:test_register_and_login.py:39 Request Type: POST
+[33mWARNING [0m test_register_with_same_data:test_register_and_login.py:41 Registration failed..!!
+[32mINFO    [0m test_register_with_same_data:test_register_and_login.py:44 Response code verified as 409

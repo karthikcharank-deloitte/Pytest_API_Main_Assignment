@@ -1,0 +1,4 @@
+[32mINFO    [0m test_delete_account:test_register_and_login.py:257 Testing API: /users/delete-account
+[32mINFO    [0m test_delete_account:test_register_and_login.py:258 Request Type: DELETE
+[32mINFO    [0m test_delete_account:test_register_and_login.py:266 User account deleted successfully..!!
+[32mINFO    [0m test_delete_account:test_register_and_login.py:269 Response code verified as 200

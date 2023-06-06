@@ -1,0 +1,4 @@
+[32mINFO    [0m test_reset_password_with_invalid_data:test_register_and_login.py:195 Testing API: /users/reset-password
+[32mINFO    [0m test_reset_password_with_invalid_data:test_register_and_login.py:196 Request Type: POST
+[33mWARNING [0m test_reset_password_with_invalid_data:test_register_and_login.py:198 Invalid token passed..!!
+[32mINFO    [0m test_reset_password_with_invalid_data:test_register_and_login.py:202 Response code is verified as 401

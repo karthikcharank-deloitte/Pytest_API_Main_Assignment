@@ -1,0 +1,5 @@
+[32mINFO    [0m test_update_note_status:test_swagger_notes.py:162 Testing API: /notes/{id}
+[32mINFO    [0m test_update_note_status:test_swagger_notes.py:163 Request Type: PATCH
+[32mINFO    [0m test_update_note_status:test_swagger_notes.py:168 Authentication Token: 4364b41e6d5e4a129682797d90c7f9f6c96f836aac0543219d4143f3d7fef4f0
+[32mINFO    [0m test_update_note_status:test_swagger_notes.py:171 Note updated successfully..!!
+[32mINFO    [0m test_update_note_status:test_swagger_notes.py:175 Response code verified as 200

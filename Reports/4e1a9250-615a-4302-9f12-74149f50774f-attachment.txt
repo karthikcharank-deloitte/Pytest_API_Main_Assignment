@@ -1,0 +1,2 @@
+<Response [201]>
+{'success': True, 'status': 201, 'message': 'User account created successfully', 'data': {'id': '647ee48f171bfa0211d5d084', 'name': 'ABCD', 'email': 'acb8167@gmail.com'}}

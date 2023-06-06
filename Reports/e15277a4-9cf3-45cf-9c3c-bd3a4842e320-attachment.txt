@@ -1,0 +1,1 @@
+{'success': True, 'status': 200, 'message': 'Notes API is Running'}
